@@ -51,11 +51,11 @@
 >>> 계속해서 추가가 가능
 
 8. 하이퍼링크 <br>
-\- <>안에 링크 주소를 넣는다. <br>
-\- []안에 링크의 이름을 넣고 ()안에 링크 주소를 넣는다. <br>
+\- < >안에 링크 주소를 넣는다. <br>
+\- [ ]안에 링크의 이름을 넣고 ( )안에 링크 주소를 넣는다. <br>
 
-"<>"안에 링크 주소 넣기 <www.naver.com> <br>
-"[]" 안에 링크 이름 넣기 [네이버](www.naver.com) <br>
+"< >"안에 링크 주소 넣기 <www.naver.com> <br>
+"[ ]" 안에 링크 이름 넣기 [네이버](www.naver.com) <br>
 
 9. 코드 블록 <br>
 \- ```또는 ~~~를 활용하여 코드블록을 작성. <br>
@@ -70,7 +70,7 @@ int main(void) {
 ```
 
 10. 특수문자 출력 <br>
-\- 특수문자 앞에 \(역슬래쉬)를 넣으면 출력. <br>
+\- 특수문자 앞에 \\(역슬래쉬)를 넣으면 출력. <br>
   
 11. 테이블 생성 <br>
 \- 헤더 셀을 구분할 때 3개 이상의 ---기호가 필요. <br>
@@ -94,5 +94,12 @@ int main(void) {
 \- 마크다운 형식(이미지 사이즈 조절 불가) : ![이미지]\(이미지경로.png) <br>
 \- HTML 태그 형식(이미지 사이즈 조절 가능) : \<img src="이미지주소.png" width="200" height="200"/> <br>
 
+<!-- ![이미지](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/640px-Font_Awesome_5_brands_github.svg.png) -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/640px-Font_Awesome_5_brands_github.svg.png" width="200" height="200"/> 
 
+14. 마크다운 뱃지 <br>
+\- [마크다운 뱃지 모음 링크] (https://github.com/Ileriayo/markdown-badges)
 
+15. 마크다운 이모지 <br>
+\- \: :(콜론) 사이에 이모티콘명을 넣으면 자동으로 인식 <br>
+🚀 🎄
